@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc58b49-6342-49eb-bf22-b38ef2fdbce9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/health.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend" afterDir="false" />
     </list>
@@ -76,7 +70,7 @@
       <updated>1600658991190</updated>
       <workItem from="1600658992451" duration="8493000" />
       <workItem from="1600871202291" duration="319000" />
-      <workItem from="1600912960371" duration="6201000" />
+      <workItem from="1600912960371" duration="8915000" />
     </task>
     <servers />
   </component>

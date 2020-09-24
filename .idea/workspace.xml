@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbde8e65-f098-43a4-8ad0-41e5de99c91f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/containers/Todos/TodoItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/containers/Todos/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/views/pages/Todos/Detail.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/views/pages/Todos/List.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/views/pages/Todos/Update.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/views/pages/Todos/Write.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/views/pages/Todos/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/app/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/app/redux.js" afterDir="false" />
@@ -27,6 +28,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -40,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600922237808</updated>
-      <workItem from="1600922239205" duration="350000" />
+      <workItem from="1600922239205" duration="565000" />
     </task>
     <servers />
   </component>
