@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbde8e65-f098-43a4-8ad0-41e5de99c91f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/controllers/health.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/controllers/todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/models/todo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/views/pages/Todos/Detail.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/views/pages/Todos/List.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/views/pages/Todos/Update.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/views/pages/Todos/Write.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/views/pages/Todos/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/app/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/app/redux.js" afterDir="false" />
@@ -47,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600922237808</updated>
-      <workItem from="1600922239205" duration="282000" />
+      <workItem from="1600922239205" duration="321000" />
     </task>
     <servers />
   </component>
