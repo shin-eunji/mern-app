@@ -6,27 +6,24 @@ import LoginForm from "../Form/LoginForm";
 import {Link} from "react-router-dom";
 import {navigate} from "../../../lib/History";
 import PopupMore from "../Popup/More";
+import {useSelector} from "react-redux";
+import {appAction} from "../../../redux/actionCreators";
 
 function Nav (props) {
 
     const {} = props;
 
-    const [popup, handlePopup] = useState(false)
-
-    const onPopup = () => {
-        handlePopup(true)
-    }
+    const {handlePopup} = useSelector(state => state.app);
 
     return (
         <Container>
             <NavItem>Topics</NavItem>
             <NavItem>Explore</NavItem>
-            <NavItem onClick={onPopup}>
+            <NavItem onClick={() => appAction.updateState({
+                handlePopup: true
+            })}>
                 <AiOutlineEllipsis className={"more"}/>
             </NavItem>
-            {
-                popup && <PopupMore handlePopup={handlePopup}/>
-            }
             <Button>
                 <SubmitButton>Submit a photo</SubmitButton>
             </Button>
@@ -34,6 +31,9 @@ function Nav (props) {
             <Button>
                 <JoinButton>Join free</JoinButton>
             </Button>
+
+
+            <PopupMore handlePopup={handlePopup} />
         </Container>
     )
 }

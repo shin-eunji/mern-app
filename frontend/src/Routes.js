@@ -4,6 +4,7 @@ import {Route, Switch} from "react-router-dom";
 
 import Home from "./views/pages/Home";
 import Login from "./views/pages/Login";
+import Todos from "./views/pages/Todos";
 
 function Routes (props) {
 
@@ -13,7 +14,8 @@ function Routes (props) {
         <Container>
             <Switch>
                 <Route exact path={'/'} component={Home} />
-                <Route path={'/login'} component={Login} />
+                <Route exact path={'/login'} component={Login} />
+                <Route path={'/todos'} component={Todos} />
             </Switch>
         </Container>
     )
