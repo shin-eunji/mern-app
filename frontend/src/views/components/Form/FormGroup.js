@@ -11,12 +11,7 @@ function FormGroup (props) {
         register,
         errorType,
         value,
-        onChange = (e) => {
-            setValue({
-                ...value,
-                email: e.target.value
-            })
-        },
+        onChange = () => {}
     } = props;
 
     return (

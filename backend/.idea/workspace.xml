@@ -20,39 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc58b49-6342-49eb-bf22-b38ef2fdbce9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/health.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/Routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/lib/Fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/lib/History.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/redux/actionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/redux/app/redux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/redux/app/saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/redux/sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Button/Button.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Header/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Header/NavHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Header/NavLinks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Header/TopHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Logo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Nav/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Search/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Visual/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/containers/Home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Login/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Contents/Photo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Contents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Form/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Header/NavHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Header/NavHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Header/NavLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Header/NavLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Nav/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Nav/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Search/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Visual/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Visual/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Home/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

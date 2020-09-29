@@ -10,7 +10,7 @@ function LoginForm (props) {
     } = props;
 
     const {register, errors, watch, handleSubmit} = useForm();
-    const [value, setValue] = useState({})
+    const [value, setValue] = useState([])
     const onsubmit = () => {
 
     }
@@ -22,6 +22,12 @@ function LoginForm (props) {
                        placeholder=''
                        register={register({required: true})}
                        errorType={errors?.email?.type}
+                       onChange={(e) => {
+                           setValue({
+                               ...value,
+                               email: e.target.value
+                           })
+                       }}
             />
 
             <FormGroup name='password'
@@ -29,8 +35,16 @@ function LoginForm (props) {
                        placeholder=''
                        register={register({required: true})}
                        errorType={errors?.password?.type}
+                       onChange={(e) => {
+                           setValue({
+                               ...value,
+                               password: e.target.value
+                           })
+                       }}
             />
-            <Button>Login</Button>
+            <Button onClick={() => {
+                console.log("value", value);
+            }}>Login</Button>
         </Container>
     )
 }

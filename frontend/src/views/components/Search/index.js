@@ -20,14 +20,17 @@ function Search(props) {
 
 const Container = styled.div`
   display:flex;
-  justify-content: space-between;
   align-items:center;
-   padding: 5px 0;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 0;
 `
 const SearchIcon = styled.span`
+  display:flex;
   font-size: 26px;
   font-weight:bold;
   margin: 0 10px;
+  color: #666;
 `;
 const SearchInput = styled.input`
   border: none;

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import {AiOutlineSearch} from "react-icons/ai/index";
 import Search from "../Search";
+import Footer from "./Footer";
 
 function Visual (props) {
 
@@ -12,7 +13,7 @@ function Visual (props) {
         <Container>
             <Text>
                 Unsplash
-                <p>The internet’s source of <a href="">freely-usable images.</a>
+                <p>The internet’s source of <a href="">freely-usable images.</a> <br/>
                     Powered by creators everywhere.</p>
                 <SearchContainer>
                     <Search/>
@@ -22,6 +23,7 @@ function Visual (props) {
                     <TagList tag={['태그1','태그2','태그3']}/>
                 </TagBoxBlock>
             </Text>
+            <Footer/>
         </Container>
     )
 }
@@ -49,26 +51,28 @@ const Container = styled.div`
   }
 `
 const Text = styled.div`
+  width: 800px;
   margin: 200px 0;
   color: #fff;
   font-size: 48px;
   font-weight: 800;
   z-index: 100;
   p{
-      font-size: 18px;
-      font-weight: 500;
-      margin: 20px 0;
-      a {
-        color: #fff;
-        opacity: .8;
-      }
+    font-size: 19px;
+    font-weight: 500;
+    margin: 20px 0 30px;
+    line-height: 1.4;
+    a {
+      color: #fff;
+      opacity: .8;
+    }
   }
 `;
 const SearchContainer = styled.div`
+  width: 100%;
   display:flex;
-  flex-wrap:wrap;
-  flex-direction:row;
   align-items: center;
+  justify-content: space-between;
   background: #fff;
   padding: 6px 10px;
   border-radius: 5px;
@@ -79,7 +83,7 @@ const TagBoxBlock = styled.div`
     display:flex;
     flex-direction:row;
     align-items:center;
-    margin: 10px 0;
+    margin-top: 20px;
 `;
 const TagList = styled.div`
     font-weight: 600;

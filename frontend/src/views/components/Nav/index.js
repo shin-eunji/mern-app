@@ -1,22 +1,32 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import {AiOutlineEllipsis} from "react-icons/ai";
 import {Button, ButtonMint} from "../Button/Button.styled";
 import LoginForm from "../Form/LoginForm";
 import {Link} from "react-router-dom";
 import {navigate} from "../../../lib/History";
+import PopupMore from "../Popup/More";
 
 function Nav (props) {
 
     const {} = props;
 
+    const [popup, handlePopup] = useState(false)
+
+    const onPopup = () => {
+        handlePopup(true)
+    }
+
     return (
         <Container>
             <NavItem>Topics</NavItem>
             <NavItem>Explore</NavItem>
-            <NavItem>
+            <NavItem onClick={onPopup}>
                 <AiOutlineEllipsis className={"more"}/>
             </NavItem>
+            {
+                popup && <PopupMore handlePopup={handlePopup}/>
+            }
             <Button>
                 <SubmitButton>Submit a photo</SubmitButton>
             </Button>
@@ -41,9 +51,11 @@ const NavItem = styled(Link)`
   padding: 10px 6px;
   font-size: 15px;
   color: #666;
+  text-decoration: none;
   .more {
     font-size: 24px;
     font-weight:bold;
+    transition: .2s;
     
   }
 `;

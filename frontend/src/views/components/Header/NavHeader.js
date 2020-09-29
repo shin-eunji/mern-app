@@ -29,7 +29,7 @@ const Container = styled.div`
 const Nav = styled.div`
   display:flex;
   align-items:center;
-  justify-content: space-between;
+  justify-content:flex-start;
 `;
 const NavItem = styled(Link)`
   display:flex;
@@ -40,13 +40,22 @@ const NavItem = styled(Link)`
   font-weight: 500;
   text-decoration: none;
   padding: 14px 0;
+  &:nth-child(2){
+    flex: 1;
+    overflow-x: auto;
+  }
 `;
 const Item = styled(Link)`
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
   margin: 10px 20px;
   color: #666;
   font-size: 15px;
   font-weight:600;
+  text-decoration: none;
   cursor: pointer;
+  white-space: nowrap;
   &:hover {
     color: #111;
   }
