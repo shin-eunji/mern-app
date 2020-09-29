@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
 import {AiOutlineEllipsis} from "react-icons/ai";
-import {Button, ButtonMint} from "../Button/Button.styled";
-import LoginForm from "../Form/LoginForm";
+import {Button} from "../Button/Button.styled";
 import {Link} from "react-router-dom";
 import {navigate} from "../../../lib/History";
 import PopupMore from "../Popup/More";
@@ -13,7 +12,7 @@ function Nav (props) {
 
     const {} = props;
 
-    const {handlePopup} = useSelector(state => state.app);
+    const app = useSelector(state => state.app);
 
     return (
         <Container>
@@ -33,7 +32,9 @@ function Nav (props) {
             </Button>
 
 
-            <PopupMore handlePopup={handlePopup} />
+            {
+                app && <PopupMore/>
+            }
         </Container>
     )
 }

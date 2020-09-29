@@ -4,14 +4,19 @@ const initialState = {
 
 export const Action = {
     Types: {
-        UPDATE_STATE: 'TODO/UPDATE_STATE'
+        UPDATE_STATE: 'TODO/UPDATE_STATE',
+        GET_TODOS: 'GET_TODOS'
     },
 
     Creators: {
         updateState: (props) => ({
             type: Action.Types.UPDATE_STATE,
             props
+        }),
+        getTodos: () => ({
+            type: Action.Types.GET_TODOS
         })
+
     }
 }
 

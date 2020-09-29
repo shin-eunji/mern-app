@@ -1,21 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function List (props) {
+function Item (props) {
 
     const {} = props;
 
-
     return (
         <Container>
-
+            Item
         </Container>
     )
 }
 
 const Container = styled.div`
 `
-const ButtonTodo = styled.div`
-    
-`;
-export default List;
+export default Item;

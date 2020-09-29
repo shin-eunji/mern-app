@@ -15,7 +15,7 @@ export const Action = {
 
 }
 
-export const reducer = function(state = initialState, action) {
+export const reducer = function(state= initialState, action) {
     switch(action.type) {
         default: return state
 
