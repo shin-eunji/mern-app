@@ -7,6 +7,7 @@ import LoginForm from "../../components/Form/LoginForm";
 import Header from "../../components/Header";
 import Visual from "../../components/Visual";
 import Contents from "../../components/Contents";
+import Todos from "../Todos";
 
 
 function Home (props) {
@@ -20,6 +21,7 @@ function Home (props) {
             <Contents/>
             <Switch>
                 <Route exact path={'/login'} component={LoginForm}/>
+                <Route path={'/todos'} component={Todos} />
             </Switch>
         </Container>
     )

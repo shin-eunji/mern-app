@@ -1,17 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
-import {appAction} from "../../../redux/actionCreators";
-import {useDispatch} from "react-redux";
+import {appActions} from "../../../redux/actionCreators";
 
 function PopupMore (props) {
 
-    const {
-    } = props;
+    const {} = props;
 
 
     return (
         <Container onClick={() => {
-            appAction.updateState({
+            appActions.updateState({
                 handlePopup: false
             })}
         }>

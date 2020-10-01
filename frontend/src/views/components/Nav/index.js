@@ -6,19 +6,22 @@ import {Link} from "react-router-dom";
 import {navigate} from "../../../lib/History";
 import PopupMore from "../Popup/More";
 import {useSelector} from "react-redux";
-import {appAction} from "../../../redux/actionCreators";
+import {appActions} from '../../../redux/actionCreators'
 
 function Nav (props) {
 
-    const {} = props;
+    const {
+        handlePopup
+    } = props;
 
     const app = useSelector(state => state.app);
+
 
     return (
         <Container>
             <NavItem>Topics</NavItem>
             <NavItem>Explore</NavItem>
-            <NavItem onClick={() => appAction.updateState({
+            <NavItem onClick={() => appActions.updateState({
                 handlePopup: true
             })}>
                 <AiOutlineEllipsis className={"more"}/>
@@ -27,13 +30,13 @@ function Nav (props) {
                 <SubmitButton>Submit a photo</SubmitButton>
             </Button>
             <NavItem onClick={() => navigate('/login')}>Login</NavItem>
-            <Button>
+            <Button onClick={() => navigate('/todos')}>
                 <JoinButton>Join free</JoinButton>
             </Button>
 
 
             {
-                app && <PopupMore/>
+                app && <PopupMore handlePopup={!handlePopup}/>
             }
         </Container>
     )
@@ -66,11 +69,13 @@ const SubmitButton = styled.div`
   border-radius: 5px;
   padding: 8px 12px;
 `;
-const JoinButton = styled.div`
+const JoinButton = styled.button`
   background: #45b06e;
   border: 1px solid #45b06e;
   padding: 8px 12px;
   color: #fff;
   border-radius: 5px;
+  border: none;
+  
 `;
 export default Nav;

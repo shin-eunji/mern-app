@@ -20,23 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc58b49-6342-49eb-bf22-b38ef2fdbce9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Todos/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Todos/List.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/app.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/lib/Fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/lib/Fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/app/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/app/redux.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/redux/todos/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/todos/redux.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Button/Button.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Button/Button.styled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormGroup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Form/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Popup/PhotoPopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Popup/PhotoPopup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Nav/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Nav/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Popup/More.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Popup/More.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Detail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Update.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Write.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/Write.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,7 @@
       <workItem from="1600871202291" duration="319000" />
       <workItem from="1600912960371" duration="13247000" />
       <workItem from="1601177028312" duration="1662000" />
-      <workItem from="1601530883890" duration="1267000" />
+      <workItem from="1601530883890" duration="1633000" />
     </task>
     <servers />
   </component>

@@ -1,29 +1,17 @@
+import {createActions, createReducer} from "reduxsauce";
+
 const initialState = {
-    handlePopup: false
+    openSidebar: false,
 }
 
-export const Action = {
-    Types: {
-        UPDATE_STATE: 'APP/UPDATE_STATE'
-    },
-    Creators: {
-        updateState: (payload) => ({
-            type: Action.Types.UPDATE_STATE,
-            payload
-        })
-    }
+export const Action = createActions({
+    updateState: ['state'],
+},{prefix: 'APP'})
 
-}
+export const reducer = createReducer(initialState, {
+    [Action.Types.UPDATE_STATE]: (state, {state: newState}) => ({
+        ...state,
+        ...newState
+    }),
 
-export const reducer = function(state= initialState, action) {
-    switch(action.type) {
-        default: return state
-
-        case Action.Types.UPDATE_STATE: {
-            return {
-                ...state,
-                ...action.payload
-            }
-        }
-    }
-}
+})

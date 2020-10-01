@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Item from "./Item";
 import {navigate} from "../../../lib/History";
+import {useSelector} from "react-redux";
 
 function TodosContainer (props) {
 
@@ -9,6 +10,7 @@ function TodosContainer (props) {
         list = []
     } = props;
 
+    // const {list} = useSelector(state => state.todos)
 
     return (
         <Container>

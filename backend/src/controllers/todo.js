@@ -20,9 +20,9 @@ router.get('/:id', async (req, res) => {
 })
 
 router.post('/', async (req, res) => {
-    const { title, body } = req.body;
+    const { title, description } = req.body;
 
-    const todo = new Todo({title, body})
+    const todo = new Todo({title, description})
     const result = await todo.save()
 
     res.json(result)
@@ -30,9 +30,9 @@ router.post('/', async (req, res) => {
 
 router.put('/:id', async (req, res) => {
     const id = req.params.id;
-    const {title, body} = req.body;
+    const {title, description} = req.body;
 
-    const result = await Todo.updateOne({_id: id}, {title, body})
+    const result = await Todo.updateOne({_id: id}, {title, description})
 
     res.json(result)
 })

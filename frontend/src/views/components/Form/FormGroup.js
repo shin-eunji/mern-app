@@ -1,52 +1,61 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import FormMessage from "./FormMessage";
 
 function FormGroup (props) {
 
     const {
-        name,
         label,
+        name,
         placeholder,
+        value,
         register,
         errorType,
-        type,
-        value,
-        onChange = () => {}
+        onChange = () => {},
+        onEnter=() => {}
+
     } = props;
+
 
     return (
         <Container>
             <Label>{label}</Label>
             <Input name={name}
-                   type={type}
-                   placeholder={placeholder}
                    value={value}
                    ref={register}
+                   placeholder={placeholder}
                    onChange={onChange}
+                   onKeyUp={(e) => {
+                       if(e.key === 'Enter') {
+                           onEnter()
+                       }
+                   }}
             />
-            {
-                errorType === 'required' && '필수 입력 사항 입니다.'
-            }
+            <FormMessage errorType={errorType}/>
+
         </Container>
     )
 }
 
 const Container = styled.div`
-  display: flex;
-  flex-direction:column;
-  width: 300px;
+
 `
 const Label = styled.label`
-  font-size: 17px;
-  font-weight: 500;
-  margin-bottom: 10px;
+    display:block;
+    padding: 15px 0;
+    font-size: 16px;
 `;
 const Input = styled.input`
-  padding: 8px 10px;
-  margin-bottom: 20px;
-  border: 1px solid #aaa;
-  border-radius: 5px;
-    
+    height: 46px;
+    background: transparent;
+    border: 1px solid #ddd;
+    padding: 8px;
+    -webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;
+    -webkit-border-radius: none;-moz-border-radius: none;border-radius: none;
+    width: 100%;
+    display: inline-block;
+    &:focus {
+      outline: 0;
+    }
 `;
 export default FormGroup;
