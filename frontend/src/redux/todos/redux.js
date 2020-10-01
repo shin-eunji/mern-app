@@ -1,34 +1,27 @@
+import {createActions, createReducer} from 'reduxsauce'
+
 const initialState = {
-    list: []
+    list:[],
+    detail: {}
 }
 
-export const Action = {
-    Types: {
-        UPDATE_STATE: 'TODO/UPDATE_STATE',
-        GET_TODOS: 'GET_TODOS'
-    },
+export const Action = createActions({
+    updateState: ['state'],
+    getTodos: null,
+    addTodo: ['data'],
+    getTodoById: ['id'],
+    updateTodoDetail: ['id', 'todo'],
+    deleteTodo: ['id'],
+    updateTodo: ['id', 'data']
+}, {prefix: 'TODO'})
 
-    Creators: {
-        updateState: (props) => ({
-            type: Action.Types.UPDATE_STATE,
-            props
-        }),
-        getTodos: () => ({
-            type: Action.Types.GET_TODOS
-        })
-
-    }
-}
-
-export const reducer = function(state=initialState, action) {
-    switch (action.type) {
-        default:
-            return state
-
+export const reducer = (state= initialState, action) => {
+    switch(action.type) {
+        default: return state;
         case Action.Types.UPDATE_STATE: {
             return {
                 ...state,
-                ...action.props
+                ...action.payload
             }
         }
     }

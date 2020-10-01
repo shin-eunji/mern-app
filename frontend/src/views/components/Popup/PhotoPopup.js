@@ -30,6 +30,7 @@ const Container = styled.div`
   justify-content:center;
   color: #fff;
   font-size: 30px;
-  z-index: 2000; 
+  z-index: 2000;
+  cursor: zoom-out;
 `
 export default PhotoPopup;

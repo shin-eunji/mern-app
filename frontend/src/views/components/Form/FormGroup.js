@@ -10,6 +10,7 @@ function FormGroup (props) {
         placeholder,
         register,
         errorType,
+        type,
         value,
         onChange = () => {}
     } = props;
@@ -18,6 +19,7 @@ function FormGroup (props) {
         <Container>
             <Label>{label}</Label>
             <Input name={name}
+                   type={type}
                    placeholder={placeholder}
                    value={value}
                    ref={register}

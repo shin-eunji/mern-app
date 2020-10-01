@@ -1,7 +1,8 @@
 import FetchJson from "../lib/Fetch";
 
 const API = {
-    getTodo: () => FetchJson.get('/todo'),
+    getTodos: () => FetchJson.get('/todos'),
+    addTodo: (data) => FetchJson.post('/todos', data)
 }
 
 export default API;

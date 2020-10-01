@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import {useSelector} from "react-redux";
 import Item from "./Item";
 import {navigate} from "../../../lib/History";
 
 function TodosContainer (props) {
 
-    const {} = props;
+    const {
+        list = []
+    } = props;
 
-    const {list} = useSelector(state => state.todos)
 
     return (
         <Container>
@@ -26,11 +26,20 @@ function TodosContainer (props) {
 }
 
 const Container = styled.div`
+  display:flex;
+  align-items:flex-start;
+  justify-content:center; 
 `
 const List = styled.div`
     
 `;
-const ButtonTodo = styled.div`
-    
+const ButtonTodo = styled.button`
+  padding: 10px 20px;
+  text-align:center;
+  cursor: pointer;
+  background: #38aebe;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
 `;
 export default TodosContainer;

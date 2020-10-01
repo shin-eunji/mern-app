@@ -19,6 +19,7 @@ function LoginForm (props) {
         <Container handleSubmit={onsubmit}>
             <FormGroup name='email'
                        label='Email'
+                       type='text'
                        placeholder=''
                        register={register({required: true})}
                        errorType={errors?.email?.type}
@@ -32,6 +33,7 @@ function LoginForm (props) {
 
             <FormGroup name='password'
                        label='Password'
+                       s
                        placeholder=''
                        register={register({required: true})}
                        errorType={errors?.password?.type}

@@ -20,17 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc58b49-6342-49eb-bf22-b38ef2fdbce9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Contents/Photo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/views/components/Contents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/todos/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/todos/redux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/redux/todos/saga.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/FormGroup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Form/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Form/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Header/NavHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Header/NavHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Header/NavLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Header/NavLinks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Nav/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Nav/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Search/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Visual/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Visual/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/components/Popup/PhotoPopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/components/Popup/PhotoPopup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/containers/Todos/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/pages/Todos/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +86,7 @@
       <workItem from="1600871202291" duration="319000" />
       <workItem from="1600912960371" duration="13247000" />
       <workItem from="1601177028312" duration="1662000" />
+      <workItem from="1601530883890" duration="1267000" />
     </task>
     <servers />
   </component>
